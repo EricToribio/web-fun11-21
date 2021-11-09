@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="first-name">First Name: *</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div>
+            <label for="last-name">Last Name: *</label>
+            <input type="text" name="last-name" id="last-name" required>
+        </div>
+        <div>
+            <label for="email-address"></label>
+            <input type="text" name="email-address" id="email-address" required>
+        </div>
+        <div>
+            <label for="password">Password: *</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="confirm-pass">Confirm Password: * </label>
+            <input type="password" name="confirm-pass" id="confirm-pass" required>
+        </div>
+        <div>
+            <label for="birth-date">Birthday:</label>
+            <input type="date" name="birth-date" id="birth-date" required>
+        </div>
+        <p>Gender Identity:</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="non-binary" value="non-binary">
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" name="gender" id="no-response" value="no-response">
+        <label for="no-response">I prefer not to answer</label>
+        <p>A short description about myself:</p>
+        <textarea ncols="30" rows="10"></textarea>
+        <div>
+        <select name="Favorite Language:">
+                <option value="Java script">Java Script</option>
+                <option value="Html">Html</option>
+                <option value="c++">C++</option>
+                <option value="Python">Python</option>
+            </select></div>
+        <div>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Yes, I would like to receive periodic email updates!</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <h5>* Indicates a required field</h5>
+
+    </form>
+
+</body>
+
+</html>

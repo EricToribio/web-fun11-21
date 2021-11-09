@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto-Lightitalic;
+}
+.nav{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    
+}
+li a{
+    color: rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+.btn{
+    background-color: cyan;
+    border: 2px solid black;
+    box-shadow: black 2px 2px;
+}
+.active{
+    color: white;
+}

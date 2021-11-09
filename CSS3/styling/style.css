@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: monospace;
+}
+
+h1 {
+    display: flex;
+    width: auto;
+    background-color: black;
+    min-height: 80px;
+    color: white;
+    align-items: center;
+    font-size: 4em;
+    justify-content: left;
+}
+span{
+    color: rgb(54, 200, 248);
+}
+h2{
+    display: flex;
+    margin: 10px 0;
+    width: auto;
+    background-color: rgb(74, 4, 121);
+    justify-content: center;
+    color: white;
+    min-height: fit-content;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+h3 {
+    width: auto;
+    display: flex;
+    background-color: rgb(46, 200, 251);
+    justify-content: right;
+    
+}
+h3 a{
+    color: black;
+    font-size: 1.8em;
+}
