@@ -1,216 +1,178 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-#page-header{
+#pageHeader {
+    min-height: 50px;
+    color: white;
     background-color: black;
-    width: 100%;
-    min-height: 10px;
-    display: flex;
-    
-    color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-#sign-out {
-    height: 40px;
-    width: 100px;
-    background-color: teal;
-    color: white;
-    margin-left: 150px;
-       
-}
-li{
-    display: inline-flex;
-    margin: 40px;
-    font-size: 1.3em;
-    color: grey;
-}
-ul {
-    display: inline-flex;
-      
-}
-#profile {
-    color: white;
-}
-
-#container {
-    width: 600px;
-    margin: 20px 0;
-    border: 3px solid lightgray;
-    min-height: 400px;
-    display: inline-block;
-    
-}
-#header {
-    width: 100%;
-    background-color: teal;
-    height: 100px;
-    
-}
-#user-pic {
-    width: 100px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 50px;
-    left: 30px;
-}
-#name {
-    
-    position: relative;
-    bottom: 40px;
-    left: 20px;
-}
-.location {
-    display: flex;
-    position: relative;
-    bottom: 30px;
-    left: 30px;
-    font-size: 1.4em;
-}
-#location {
-    width: 20px;
-}
-#city {
-    position: absolute;
-    left: 40px;
-}
-.about {
-    margin-top: 10px;
-    position: relative;
-    bottom: 20px;
-    left: 30px;
-    font-size: 1.2em;
-
-}
-#cog {
-    width: 20px;
-    margin-top: 20px;
-}
-#edit {
-    color: blue;
-}
-.request-contain{
-    width: 300px;
-    height: 250px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border: lightgray solid 3px;
-    
-}
-#head-request{
-    background-color: gray;
-    color: white;
-    display: flex;
-    width: auto;
-    height: 50px;
-    align-items: center;
-}
-#requesth{
-    margin-left: 30px;
-}
-#cir2{
-    margin-left: 10px;
-    width: 30px;
-    height: 30px;
-    font-size: 1.2em;
-    border-radius: 50%;
-    background-color: lightgray;
-    border: transparent;
-}
-#request1, #request2{
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-    justify-content: space-evenly;
-}
-.sizing {
-    width: 60px;
-    border-radius: 50%;
-}
-.wrap {
     display: flex;
     justify-content: center;   
-}
-#edPage {
-    width: 600px;
-    min-height: 250px;
-    border: solid lightgray 3px;
-}
-#edHeader {
-    width: auto;
-    height: 50px;
-    background-color: gray;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding: 15px;
 }
-#school {
-    margin: 20px;
+#profile{
+    color: white;
 }
-#date {
-    margin-left: 20px;
+ul li{
+    display: inline;
+    padding: 50px;
     color: gray;
-}
-#belt {
-    margin: 20px;
-}
-#yourConnections {
-    width: 300px;
-    min-height: 250px;
-    border: 3px lightgray solid;
-    margin-left: 20px;   
-    position: relative;
-    bottom: 150px;
-}
-#connectHead {
-    width: auto;
-    height: 50px;
-    background-color: gray;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-#oval500{
-    border-radius: 50%;
-    width: 50px;
-    height: 30px;
-    background-color: lightgray;
-    border: transparent;
     font-size: 1.2em;
 }
-.connections {
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    padding-top: 20px;
+#sign-out{
+    margin-left: 50px;
+    background-color: teal;
+    padding: 10px;
+    margin-left: 160px;
+
 }
-.connectName {
+.wrap {
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    min-height: 100px;
+    
+}
+.col1 {
+    width: 600px;
+    
+}
+.col2 {
+    width: 250px;
+    
     margin-left: 30px;
 }
-#footer {
-    margin-top: 20px;
-    width: auto;
-    height: 40px;
-    border-top:lightgray 3px solid;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    }
-    #viewMore {
-        color: blue;
-    }
-
+.sizing {
+    border-radius:50%;
+    width: 50px;
+}
 .accept-decline {
+    
+    border: transparent;
     background-color: transparent;
-    border: none;
 }
 button img {
     width: 30px;
+}
+.requests{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.request-contain{
+    border: 3px solid lightgray;
+    margin-bottom: 30px;
+}
+.head{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    align-items: center
+}
+#head-request{
+    justify-content: space-evenly;
+}
+#cir2 {
+    background-color: lightgray;
+    width: 30px;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 1.2em;
+}
+#yourConnections{
+    border: 3px solid lightgray;
+}
+#connectHead{
+    display: flex;
+    justify-content: space-evenly;
+}
+#oval500{
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1.1em;
+    background-color: lightgray;
+    border: transparent;
+}
+.connections{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-top: lightgray 3px solid;
+}
+#viewMore{
+    margin-left: 50px;
+    color: blue;
+}
+#container{
+    min-height: 400px;
+    border: 3px solid lightgray;
+    margin-bottom: 30px;
+}
+#user-head{
+    height: 100px;
+    background-color: teal;
+}
+#user-pic{
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+    border: white 3px solid;
+}
+#name{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+}
+#location{
+    width: 20px;
+    margin-right: 10px;
+}
+.about{
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+#cog{
+    margin-top: 30px;
+    width: 20px;
+}
+#edit{
+    color: blue;
+    margin-left: 10px;
+}
+#edPage{
+    border: lightgray solid 3px;
+    min-height: 300px;
+}
+h2{
+    color: white;
+    margin-left: 30px;
+}
+#school{
+    margin: 30px;
+}
+#date{
+    margin-left: 30px;
+}
+#belt{
+    margin: 30px;
 }

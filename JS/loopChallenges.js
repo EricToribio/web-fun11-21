@@ -82,32 +82,32 @@ function sequenceDownWhile(startNum, endNum){
 // Sigma
 // Write code that will add all of the values from 1-100 onto some variable sum and at the end console.log the result 1 + 2 + 3 + ... + 98 + 99 + 100. We should get back 5050 at the end.
 
-function getSum(lowNum = 0, highNum = 100){
+function getSum(lowNum = 1, highNum = 100){
     var sum = lowNum
-    var problem = (lowNum + "+")
+    var problem = (lowNum + " + ")
     for(var i = lowNum + 1; i < highNum; i++){
         sum += i
-        problem += (i + "+")
+        problem += (i + " + ")
     }
     sum += i
     problem += i
-    console.log(problem + " =" + sum)
+    console.log(problem + " = " + sum)
 }
-getSum(50, 200)
+getSum()
 
 // Factorial
 // Write code that will multiply all of the values from 1-12 onto some variable product and at the end console.log the result 1 * 2 * 3 * ... * 10 * 11 * 12. We should get back 479001600 at the end.
 
 function mutlVals(lowNum = 1, highNum = 12){
     var multAnswer = lowNum
-    var problem = (lowNum + "*")
+    var problem = (lowNum + " * ")
     for(var i = lowNum + 1; i < highNum; i++){
         multAnswer *= i
-        problem += (i + "*")
+        problem += (i + " * ")
 
     }
     multAnswer *= i
-    problem += (i + " =")
+    problem += (i + " = ")
     console.log(problem, multAnswer)
 }
 mutlVals()
