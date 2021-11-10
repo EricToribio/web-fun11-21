@@ -133,9 +133,7 @@ ul {
 }
 .wrap {
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 #edPage {
     width: 600px;

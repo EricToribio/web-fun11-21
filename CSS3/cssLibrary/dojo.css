@@ -1,0 +1,59 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    background-color: blue;
+    border: black 2px solid;
+    color: white;
+    font-size: .5em;
+    width: 100px;
+    min-height: 20px;
+    box-shadow: 2px 2px black;
+}
+.row {
+    display: flex;
+}
+.col, .col-2, .col-3 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: teal;
+
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
+.nav{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.nav-title{
+    color: white;    
+}
+.btn{
+    background-color: cyan;
+    border: 2px solid black;
+    box-shadow: black 2px 2px;
+}
+.active{
+    color: white;
+}
+/* sizing came from my profile page assignment it took the square pictures,resized them and made them circular */
+.sizing {
+    width: 60px;
+    border-radius: 50%;
+}
