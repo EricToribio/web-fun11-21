@@ -1,5 +1,5 @@
 function fizzbuzz(lowNum, highNum) {
-    for (var i = lowNum; i < highNum; i++) {
+    for (var i = lowNum; i <= highNum; i++) {
         if (i % 3 == 0) {
             if (i % 5 == 0) {
                 console.log("FizzBuzz")
