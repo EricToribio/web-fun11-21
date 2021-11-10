@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#container {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+img {
+    width: 40px;
+    position: relative;
+    bottom:130px;
+    left: 180px;
+}
+#tl{
+    background-color: rgb(1, 1, 128);
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+}
+#tr{
+    background-color: crimson;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    margin-left: 76px;
+}
+#bl{
+    background-color: crimson;
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    
+    position: relative;
+    right: 44px;
+    
+}
+#br{
+    background-color: rgb(1, 1, 128);
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 56px;
+    margin-left: 32px;
+}

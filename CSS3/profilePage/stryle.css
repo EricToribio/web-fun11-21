@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#page-header{
+    background-color: black;
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-out {
+    height: 40px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+    margin-left: 150px;
+       
+}
+li{
+    display: inline-flex;
+    margin: 40px;
+    font-size: 1.3em;
+    color: grey;
+}
+ul {
+    display: inline-flex;
+      
+}
+#profile {
+    color: white;
+}
+
+#container {
+    width: 600px;
+    margin: 20px 0;
+    border: 3px solid lightgray;
+    min-height: 400px;
+    display: inline-block;
+    
+}
+#header {
+    width: 100%;
+    background-color: teal;
+    height: 100px;
+    
+}
+#user-pic {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+#name {
+    
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+.location {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    font-size: 1.4em;
+}
+#location {
+    width: 20px;
+}
+#city {
+    position: absolute;
+    left: 40px;
+}
+.about {
+    margin-top: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    font-size: 1.2em;
+
+}
+#cog {
+    width: 20px;
+    margin-top: 20px;
+}
+#edit {
+    color: blue;
+}
+.request-contain{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: lightgray solid 3px;
+    
+}
+#head-request{
+    background-color: gray;
+    color: white;
+    display: flex;
+    width: auto;
+    height: 50px;
+    align-items: center;
+}
+#requesth{
+    margin-left: 30px;
+}
+#cir2{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 50%;
+    background-color: lightgray;
+    border: transparent;
+}
+#request1, #request2{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+.sizing {
+    width: 60px;
+    border-radius: 50%;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#edPage {
+    width: 600px;
+    min-height: 250px;
+    border: solid lightgray 3px;
+}
+#edHeader {
+    width: auto;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+#school {
+    margin: 20px;
+}
+#date {
+    margin-left: 20px;
+    color: gray;
+}
+#belt {
+    margin: 20px;
+}
+#yourConnections {
+    width: 300px;
+    min-height: 250px;
+    border: 3px lightgray solid;
+    margin-left: 20px;   
+    position: relative;
+    bottom: 150px;
+}
+#connectHead {
+    width: auto;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#oval500{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    background-color: lightgray;
+    border: transparent;
+    font-size: 1.2em;
+}
+.connections {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.connectName {
+    margin-left: 30px;
+}
+#footer {
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    border-top:lightgray 3px solid;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    }
+    #viewMore {
+        color: blue;
+    }
+
+.accept-decline {
+    background-color: transparent;
+    border: none;
+}
+button img {
+    width: 30px;
+}
