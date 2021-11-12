@@ -5,7 +5,7 @@ function findPosArr(arr){
             countPositives++
         }
     }
-    console.log("There are" + countPositives + "positive values!")
+    console.log("There are " + countPositives + " positive values!")
 }
 
 
