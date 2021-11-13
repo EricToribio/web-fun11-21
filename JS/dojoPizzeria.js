@@ -1,10 +1,5 @@
-var pizza = {
-    crustType: ["hand tossed", "chicago deep dish", "new york style", "thin crust"],
-    sauceType: ["traditional", "spicey", "marinara"],
-    cheeses: ["mozzarella", "feta", "swiss", "peperjack", "guda"],
-    toppings: ["pineapple", "peperoni", "sausage", "bacon", "black olives", "ham"]
-}
-function randomPizza(){
+
+function randomPizza(pizza){
     var pizza = {
         crustType: ["hand tossed", "chicago deep dish", "new york style", "thin crust"],
         sauceType: ["traditional", "spicey", "marinara"],
@@ -19,7 +14,7 @@ function randomPizza(){
     }
     return pizza
 }
-console.log(randomPizza())
+console.log(randomPizza(pizza))
 
 
 
