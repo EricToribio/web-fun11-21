@@ -1,13 +1,10 @@
 var japLike = document.getElementById('jap-likes')
 var japLikeCount= 13
-japLike.addEventListener('click', incLike )
 var addButton = document.getElementById('add')
-addButton.addEventListener('click',  hide)
 var login = document.getElementById('login')
-login.addEventListener('click', loginLogout)
 var programerLike = document.getElementById('programer-likes')
 var programerLikeCount = 37
-programerLike.addEventListener('click', proLikeInc)
+
 
 
 function loginLogout(){
