@@ -5,9 +5,6 @@ var feed1count = 9
 var feed2count = 12
 var feed3count = 9
 
-feed2Like.innerText = feed2count + " like(s)"
-feed3Like.innerText = feed3count + " like(s)"
-
 function incFeed1(){
     feed1count++
     feed1Like.innerText = feed1count + " like(s)"

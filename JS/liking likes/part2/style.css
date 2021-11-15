@@ -82,5 +82,5 @@ a{
 }
 .like-btn:active{
     box-shadow: 0 0 0 black;
-    margin: .5px .5px ;
+    /* margin: .5px .5px ; */
 }
